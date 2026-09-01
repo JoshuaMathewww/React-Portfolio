@@ -89,7 +89,7 @@ const cards = [
     {
         title: "Harvard Medical School",
         role: "Research Intern",
-        date: "JJuly 2023 – August 2023",
+        date: "July 2023 – August 2023",
         description: "Studied an intranasal drug delivery system by evaluating cytotoxicity across formulation variants with cell culture and ELISA assays, then measured encapsulation efficiency and 24 hour release kinetics of melatonin across gellan concentrations using centrifugation and HPLC; co-authored paper from findings.",
         id: 5,
     },
