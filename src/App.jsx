@@ -19,7 +19,7 @@ const App = () => {
       </h1>
       <About />
       <h1 className="pt-[150px] text-5xl font-bold text-white tracking-tight lg;mt-16 lg;text-8x w-full lg:w-1/2 pl-20">
-        Experiences
+        Experiences & Projects
       </h1>
       <HorizontalScrollCarousel />
       <Technologies />

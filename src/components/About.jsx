@@ -25,28 +25,28 @@ export const Cards = () => {
         <Card
           title="Traveling"
           image={traveling}
-          description="After COVID, I really wanted to travel and explore new places. This year, I had the chance to visit San Francisco with friends and traveled to Texas and London with my family, creating many unforgettable memories together."
+          description="After Covid, I really wanted to start exploring new places again. I got the chance to visit San Francisco and Japan with friends, then traveled to Texas and London with my family last year, creating many memories together."
         />
       </ParallaxImg>
       <ParallaxImg start={800} end={800} className="self-end">
         <Card
           title="Sports"
           image={sports}
-          description="I enjoy playing sports as a way to express myself and unwind. Badminton and ping pong are my favorites, as they let me stay active while having fun with friends. Whether it's a friendly match or a competitive game, I enjoy the energy and teamwork."
+          description="When friends get together or I have some free time, I like to run, play frisbee, or badminton. It's a good way to stay active since I spend a lot of my day in front of a computer."
         />
       </ParallaxImg>
       <ParallaxImg start={-800} end={-800} className="self-start">
         <Card
           title="Cooking"
           image={cooking}
-          description="My friends and I love cooking together whenever we find the time. We enjoy experimenting with new dishes, especially Asian. It's fun connecting over food and overall therapeutic cooking homemade meals together."
+          description="My friends and I like cooking together whenever we get the chance. We're always experimenting with new dishes, and there's something fun about connecting over a homemade meal."
         />
       </ParallaxImg>
       <ParallaxImg start={800} end={800} className="self-end">
         <Card
           title="Gaming"
           image={gaming}
-          description="Gaming has always been a big part of my life, as it has been an outlet to unwind while also bringing a competitive aspect. I first got into gaming through fast-paced FPS titles, but shifted towards strategic, single-player, story-driven games for a richer experience."
+          description="Gaming has always been a part of my life, as it has been an outlet to unwind but also a way to get competitve. I got into gaming through fast paced FPS, but over time Ive shifted towards story driven games for a richer experience."
         />
       </ParallaxImg>
     </motion.div>

@@ -40,36 +40,59 @@ const TiltImg = ({ source, altText}) => {
     y.set(0);
   };
 
-  return (
-    <motion.div
-      ref={ref}
-      onMouseMove={handleMouseMove}
-      onMouseLeave={handleMouseLeave}
-      style={{
-        transformStyle: "preserve-3d",
-        transform,
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        padding: "15px"
-      }}    
-      className="relative h-[620px] w-[525px] rounded-xl bg-gradient-to-br from-[#4A4E69] via-[#22223B] to-[#1D1D35]"
-    >
-      <img
-        src={source}
-        alt={altText}
-        className="rounded-xl"
+//   return (
+//     <motion.div
+//       ref={ref}
+//       onMouseMove={handleMouseMove}
+//       onMouseLeave={handleMouseLeave}
+//       style={{
+//         transformStyle: "preserve-3d",
+//         transform,
+//         display: "flex",
+//         justifyContent: "center",
+//         alignItems: "center",
+//         padding: "15px"
+//       }}    
+//       className="relative h-[620px] w-[525px] rounded-xl bg-gradient-to-br from-[#4A4E69] via-[#22223B] to-[#1D1D35]"
+//     >
+//       <img
+//         src={source}
+//         alt={altText}
+//         className="rounded-xl"
+//         style={{
+//           width: "100%",  
+//           height: "100%",  
+//           objectFit: "cover",  
+//           borderRadius: "inherit",  
+//           transform: "translateZ(75px)",
+//           transformStyle: "preserve-3d",
+//         }}
+//       />
+//     </motion.div>
+//   );
+    return (
+        <div
+        className="relative h-[620px] w-[525px] rounded-xl bg-gradient-to-br from-[#4A4E69] via-[#22223B] to-[#1D1D35]"
         style={{
-          width: "100%",  
-          height: "100%",  
-          objectFit: "cover",  
-          borderRadius: "inherit",  
-          transform: "translateZ(75px)",
-          transformStyle: "preserve-3d",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            padding: "15px",
         }}
-      />
-    </motion.div>
-  );
+        >
+        <img
+            src={source}
+            alt={altText}
+            className="rounded-xl"
+            style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            borderRadius: "inherit",
+            }}
+        />
+        </div>
+    );
 };
 
 export function AniHighlight({ children }) {
@@ -127,7 +150,7 @@ const Hero = () => {
                 <div className="w-full lg:w-1/2 pl-20">
                     <div className="flex flex-col items-center lg:items-start">
                         <AniHighlight>
-                            <h1 className="pb-16 text-6xl font tracking-tight lg;mt-16 lg;text-8xl">
+                            <h1 className="pb-16 text-6xl font tracking-tight lg:mt-16 lg:text-8xl">
                                 Joshua Mathew
                             </h1>
                         </AniHighlight>

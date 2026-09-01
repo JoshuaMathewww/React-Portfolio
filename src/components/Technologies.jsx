@@ -1,12 +1,6 @@
-import { RiReactjsLine } from "react-icons/ri"
-import { RiJavascriptFill } from "react-icons/ri";
-import { RiJavaFill } from "react-icons/ri";
+import { RiReactjsLine, RiJavascriptFill, RiJavaFill } from "react-icons/ri";
 import { FaPython } from "react-icons/fa";
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
-import { FaSwift } from "react-icons/fa";
-import { SiCplusplus } from "react-icons/si";
-import { SiLua } from "react-icons/si";
+import { SiSpringboot, SiAmazonwebservices } from "react-icons/si";
 import { motion } from "framer-motion";
 import { AniHighlight } from "../components/Hero.jsx";
 
@@ -68,28 +62,14 @@ const Technologies = () => {
                             inital="inital"
                             animate="animate"
                             className="rounded-2xl border-4 border-neutral-800 p-4">
-                            <FaSwift className="text-7xl text-orange-400" />
+                            <SiSpringboot className="text-7xl text-green-500" />
                         </motion.div>
-                        {/* <motion.div 
-            variants={iconVariants(2)}
-            inital="inital"
-            animate="animate"
-            className="rounded-2xl border-4 border-neutral-800 p-4">
-                <FaHtml5 className="text-7xl text-orange-200"/>
-            </motion.div>
-            <motion.div 
-            variants={iconVariants(1)}
-            inital="inital"
-            animate="animate"
-            className="rounded-2xl border-4 border-neutral-800 p-4">
-                <FaCss3Alt className="text-7xl text-blue-300"/>
-            </motion.div> */}
                         <motion.div
                             variants={iconVariants(2.25)}
                             inital="inital"
                             animate="animate"
                             className="rounded-2xl border-4 border-neutral-800 p-4">
-                            <SiLua className="text-7xl text-blue-800" />
+                            <SiAmazonwebservices className="text-7xl text-orange-400" />
                         </motion.div>
                     </div>
                 </AniHighlight>
