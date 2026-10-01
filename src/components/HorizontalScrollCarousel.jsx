@@ -80,40 +80,48 @@ const cards = [
         id: 3,
     },
     {
-        title: "Code Ninjas",
-        role: "Coding Instructor",
-        date: "February 2021 – September 2024",
-        description: "Taught students programming fundamentals through Scratch and JavaScript, leading summer coding camps and providing individualized instruction and feedback on projects and debugging.",
-        id: 4,
-    },
-    {
-        title: "Harvard Medical School",
-        role: "Research Intern",
-        date: "July 2023 – August 2023",
-        description: "Studied an intranasal drug delivery system by evaluating cytotoxicity across formulation variants with cell culture and ELISA assays, then measured encapsulation efficiency and 24 hour release kinetics of melatonin across gellan concentrations using centrifugation and HPLC; co-authored paper from findings.",
-        id: 5,
-    },
-    {
-        title: "LexHack",
-        role: "Marketing Director",
-        date: "January 2022 - May 2022",
-        description: "Organized a hackathon for middle and high schoolers with multiple workshops run by professional speakers. 240+ students registered for the 2-day hackathon. Raised over $7,500 in funding and sponsorship from MITRE, Wolfram Alpha, EA Education, echo3D, AoPS, PLE, and AICS.",
-        id: 6,
-    },
-    {
         title: "LoL Game Analytics",
         role: "Project",
         date: "January 2026",
         description: "Developed a web app retrieving live League of Legends games and historical match data through the Riot API, displaying player stats, match history, and live game info. Built an asynchronous backend handling 90+ API requests per search, aggregating 20 gameplay metrics per player across multiple endpoints and applying logistic regression to estimate win probability.",
-        id: 7,
+        id: 4,
     },
     {
         title: "Financial News Sentiment Analysis",
         role: "Project",
         date: "August 2023",
         description: "Built an NLP system to classify financial news as positive, negative, or neutral using logistic regression, LSTM, and BERT models. Compared traditional text vectorization with sequence and transformer-based approaches using scikit-learn, TensorFlow/Keras, and PyTorch.",
+        id: 5,
+    },
+    {
+        title: "Code Ninjas",
+        role: "Coding Instructor",
+        date: "February 2021 – September 2024",
+        description: "Taught students programming fundamentals through Scratch and JavaScript, leading summer coding camps and providing individualized instruction and feedback on projects and debugging.",
+        id: 6,
+    },
+    {
+        title: "Harvard Medical School",
+        role: "Research Intern",
+        date: "July 2023 – August 2023",
+        description: "Studied an intranasal drug delivery system by evaluating cytotoxicity across formulation variants with cell culture and ELISA assays, then measured encapsulation efficiency and 24 hour release kinetics of melatonin across gellan concentrations using centrifugation and HPLC; co-authored paper from findings.",
+        id: 7,
+    },
+    {
+        title: "LexHack",
+        role: "Marketing Director",
+        date: "January 2022 - May 2022",
+        description: "Organized a hackathon for middle and high schoolers with multiple workshops run by professional speakers. 240+ students registered for the 2-day hackathon. Raised over $7,500 in funding and sponsorship from MITRE, Wolfram Alpha, EA Education, echo3D, AoPS, PLE, and AICS.",
         id: 8,
     },
+    {
+        title: "Vision Aid Fundraiser",
+        role: "Organizer",
+        date: "January 2023",
+        description: "Designed a custom shirt to raise awareness for blind patients and organized a campaign that donated proceeds to Vision Aid, raising over $100 to support programs for the visually impaired.",
+        id: 9,
+    },
+
 ];
 
 export default HorizontalScrollCarousel
