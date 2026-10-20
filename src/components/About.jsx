@@ -25,7 +25,7 @@ export const Cards = () => {
         <Card
           title="Traveling"
           image={traveling}
-          description="After Covid, I really wanted to start exploring new places again. I got the chance to visit San Francisco and Japan with friends, then traveled to Texas and London with my family last year, creating many memories together."
+          description="After Covid, I really wanted to start exploring new places again. I got the chance to visit San Francisco and Japan with friends, then traveled to Texas and London with my family, creating many memories together."
         />
       </ParallaxImg>
       <ParallaxImg start={800} end={800} className="self-end">
@@ -46,7 +46,7 @@ export const Cards = () => {
         <Card
           title="Gaming"
           image={gaming}
-          description="Gaming has always been a part of my life, as it has been an outlet to unwind but also a way to get competitve. I got into gaming through fast paced FPS, but over time Ive shifted towards story driven games for a richer experience."
+          description="Gaming has always been a part of my life, as it has been an outlet to unwind but also a way to get competitive. I got into gaming through fast paced FPS, but over time I've shifted towards story driven games for a richer experience."
         />
       </ParallaxImg>
     </motion.div>

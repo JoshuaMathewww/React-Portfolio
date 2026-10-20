@@ -1,4 +1,4 @@
-import logo from "../assets/joshuaMathewLogo.png";
+import logo from "../assets/favicon.png";
 import { FaLinkedin } from "react-icons/fa"
 import { FaGithub } from "react-icons/fa"
 import { FaInstagram } from "react-icons/fa"
@@ -90,11 +90,11 @@ const Navbar = () => {
     return (
         <nav className="mb-20 flex items-center justify-between py-6">
             <div className="flex items-center gap-[100px] pl-[40px]">
-                <img className="w-10" src={logo} alt="logo" />
+                <img className="w-12" src={logo} alt="logo" />
                 <ChipTabs />
             </div>
             <div className="m-8 flex items-center justify-end gap-4 text-2xl">
-                <a href="https://www.linkedin.com/in/joshua-mathew-ab246825a/">
+                <a href="https://www.linkedin.com/in/joshuamathewww/">
                     <OutlineOnButton color="linkedin">
                         <FaLinkedin />
                     </OutlineOnButton>
